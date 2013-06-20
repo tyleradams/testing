@@ -1,4 +1,4 @@
 testing
 =======
 
-Test for shit
+this is a test project for testing purposes.
