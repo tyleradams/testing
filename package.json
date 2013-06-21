@@ -1,30 +1,14 @@
 {
-  "name": "testing",
-  "description": "more testing",
-  "version": "0.7.1",
-  "homepage": "https://github.com/tyleradams/testing",
-  "author": {
-    "name": "Tyler Adams",
-    "email": "tylera@palantir.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/tyleradams/testing"
-  },
-  "licenses": [
-    {
-      "type": "None"
-    }
-  ],
-  "main": "Gruntfile.js",
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
+  "name": "Tyler-testing",
+  "version": "0.1.0",
   "devDependencies": {
-    "grunt": "0.4.0",
-    "grunt-typescript": "~0.1.1",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-typescript": "~0.1.1"
+  }, 
+  "scripts": {
+    "test" : "grunt travis --verbose"
   }
 }
